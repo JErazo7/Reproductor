@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JQuery</title>
+  <link rel="stylesheet" type="" href="style/style.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script/script.js"></script>
+</head>
+<body>
+  <nav>
+    <div id="logo">
+      CodePlayer
+    </div>
+    <div id="contbotones">
+      <ul>
+        <li class="boton-activo" id="html">HTML</li>
+        <li id="css">CSS</li>
+        <li id="javascript">JavaScript</li>
+        <li id="output" class="boton-activo">Output</li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <textarea id="html-panel" class="panel"><p id="mensaje">Hola a todos</p></textarea>
+    <textarea id="css-panel" class="panel oculto">p{color:green;}</textarea>
+    <textarea id="javascript-panel" class="panel oculto">document.getElementById("mensaje").innerHTML ="Esto es un reproductor";</textarea>
+    <iframe id="output-panel" class="panel"></iframe>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+ body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    border: 1px solid #BFBFBF;
+    border-top-color: #EEEEEE;
+    width: 100%;
+    background-color: #EEEEEE;
+  }
+  
+  #logo {
+    float: left;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 7px 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+    font-size: 83%;
+  }
+  
+  li {
+    float: left;
+    padding: 7px 10px;
+    text-align: center;
+    border-right: 1px solid #BFBFBF;
+  }
+  
+  #contbotones {
+    margin: 3px auto;
+    width: 248px;
+    padding: 0;
+  }
+  
+  #output {
+    border-right: 0;
+  }
+  
+  .boton-marcado1 {
+    background-color: #E5E5E5;
+  }
+  
+  .boton-marcado2 {
+    background-color: #F5F9FF;
+  }
+  
+  .boton-activo {
+    background-color: #EBF4FF;
+  }
+  
+  textarea {
+    resize: none;
+    border-top: none;
+    border-color: gray;
+  }
+  
+  .panel {
+    float: left;
+    width: 50%;
+    border-left: none;
+  }
+  
+  iframe {
+    border: none;
+  }
+  
+  .oculto {
+    display: none;
+  }
